@@ -6,7 +6,7 @@ import com.vaadin.ui.*;
 public class BukerApplication extends Application {
 	@Override
 	public void init() {
-		Window mainWindow = new Window("Buker Application");
+		Window mainWindow = new Window("Bug Tracker Application");
 		Label label = new Label("Hello Vaadin user");
 		mainWindow.addComponent(label);
 		setMainWindow(mainWindow);
