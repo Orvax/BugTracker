@@ -7,7 +7,7 @@ public class BukerApplication extends Application {
 	@Override
 	public void init() {
 		Window mainWindow = new Window("Bug Tracker Application");
-		Label label = new Label("Hello Vaadin user");
+		Label label = new Label("Hello user");
 		mainWindow.addComponent(label);
 		setMainWindow(mainWindow);
 	}
